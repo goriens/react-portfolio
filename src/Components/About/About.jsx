@@ -63,7 +63,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/11Jr_dcB47Li27-yCYht0Cq0BNXMQo3cJ/view?usp=sharing"
+            href="https://www.canva.com/design/DAE9ICtCapY/12SdvWa2q3Ym6uCp-MvydQ/view?utm_content=DAE9ICtCapY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
             aria-label="github"
             className="link link--icon"
             target="_blank"

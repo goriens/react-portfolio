@@ -11,7 +11,7 @@ export const Header = () => {
       <header className={"header center " + themename}>
         <h3>
           <a href="#home" className="link">
-            GOUR
+            SUHAIB GOUR
           </a>
         </h3>
         <Navbar />
