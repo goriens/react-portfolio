@@ -31,7 +31,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://github.com/shaheen-ahmad2601/netmeds-unit-2-updated/raw/master/netmeds1.png"
+                  src="https://github.com/shaheen-ahmad2601/netmeds-unit-2-updated/raw/master/home-page-netmeds.png"
                   alt="Mail Chimp"
                 />
               </div>
