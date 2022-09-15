@@ -31,41 +31,8 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-          {/*<VerticalTimelineElement
-            date={"October 2021 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Instructional Associate
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School
-            </h4>
-            <p data-aos="fade-right">
-              Mentoring and clearing student's conceptual doubts via
-              standups,reviewing student's projects, reporting to the
-              instructor. Helping students to start their career in Tech.
-            </p>
-          </VerticalTimelineElement>*/}
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"2022 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -83,22 +50,55 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              BCA - Information Technology
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Online)
+              Manipal University, Jaipur
             </h4>
             <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Full Stack Development
-              Development and Data Structures.
+              Joined BCA program includes the Google Cloud Computing
+              Foundations.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"May 2018"}
+            date={"2021 - 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack Web Developer (Full Time)
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Koramangala, Bengaluru, Karnataka
+            </h4>
+            <p data-aos="fade-right">
+              Joined the Military style 12:00 hour daily Bootcamp to learn Full
+              Stack Development Development and Data Structures.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"2017 - 2018"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -124,44 +124,6 @@ export const Timeline = () => {
             ></h4>
             <p data-aos="fade-right">V V I C Gurukul Narsan, Uttarakhand</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"May 2015"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Completed high school - Science
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            ></h4>
-            <p data-aos="fade-right">
-              S.T Mark's Academy, School, Roorkee, Uttarakhand
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            icon={<StarRateIcon />}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-          ></VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>

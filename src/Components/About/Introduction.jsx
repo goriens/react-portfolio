@@ -23,10 +23,19 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
-                <span className="different">Suhaib Gour </span> from{" "}
+                <span className="different">Suhaib Gour </span> I belong to{" "}
                 <span className="different"> Roorkee, Uttarakhand</span>. I have
-                completed my 12th class in Vidya Vikasinee Inter College,
-                Gurukul Narsan.
+                done a{" "}
+                <span className="different">
+                  Full Stack Web Development course
+                </span>{" "}
+                at Masai School. Presently I am pursuing a{" "}
+                <span className="different">
+                  Bachelor of Computer Application{" "}
+                </span>{" "}
+                in specialization{" "}
+                <span className="different"> Information Technology</span> at
+                Manipal University Jaipur.
               </h4>
               <h4> My Interest In :</h4>
               <h4 className="different">
