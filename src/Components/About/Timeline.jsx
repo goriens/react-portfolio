@@ -65,7 +65,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"2021 - 2022"}
+            date={"Oct 2021 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -98,7 +98,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"2017 - 2018"}
+            date={"May 2017 - May 2018"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,

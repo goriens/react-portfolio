@@ -25,6 +25,9 @@ export const About = () => {
           HTML. Passionate about coding and looking for opportunities in
           software development.
         </p>
+        <span type="button" className="btn btn--outline onbt resume_btn">
+          Resume Download
+        </span>
         <div className="about__contact center">
           <a
             href="https://github.com/goriens"
@@ -82,6 +85,7 @@ export const About = () => {
           </a>
         </div>
       </div>
+
       <Introduction />
       <Timeline />
       <section id="#skills">

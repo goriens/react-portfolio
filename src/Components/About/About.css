@@ -21,6 +21,9 @@
 .about__contact {
   margin-top: 2.4em;
 }
+.resume_btn {
+  margin-top: 2rem !important;
+}
 
 .about .link--icon {
   margin-right: 0.8em;
