@@ -25,9 +25,15 @@ export const About = () => {
           HTML. Passionate about coding and looking for opportunities in
           software development.
         </p>
-        <span type="button" className="btn btn--outline onbt resume_btn">
-          Resume Download
-        </span>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1grZD8C-JvBL_t5WQZqh10irVXveTjWvm/view?usp=sharing"
+        >
+          <span type="button" className="btn btn--outline onbt resume_btn">
+            Resume Download
+          </span>
+        </a>
+
         <div className="about__contact center">
           <a
             href="https://github.com/goriens"

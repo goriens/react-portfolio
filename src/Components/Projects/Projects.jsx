@@ -2,16 +2,8 @@ import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
   SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
   SiMongodb,
   SiNodedotjs,
   SiCss3,
@@ -31,36 +23,34 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://github.com/shaheen-ahmad2601/netmeds-unit-2-updated/raw/master/home-page-netmeds.png"
+                  src="https://user-images.githubusercontent.com/76823175/196040294-e3962100-beed-4fce-9c7e-3b7e202e2659.png"
                   alt="Mail Chimp"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Netmeds Clone</h2>
+              <h2>Gour Shop</h2>
               <p>
-                We were a team of 6 members from the Masai Web-15 batch who
-                worked on cloning the Netmeds website as part of our Unit-2
-                construct week. As a team, we were given a project to clone the
-                Netmeds website.
+                Gour Shop is an Mern stack ecommerce web application for selling
+                product online. This project was created in 1 week.
               </p>
               <div>
                 <SiHtml5 />
                 <IoLogoJavascript />
                 <SiCss3 />
+                <FaReact />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
               </div>
               <div>
-                <a
-                  href="https://zippy-kitsune-2c37d4.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="#" target="_blank" rel="noreferrer">
                   <span type="button" className="btn btn--outline onbt">
-                    See Project
+                    View Project
                   </span>
                 </a>
                 <a
-                  href="https://github.com/goriens/Netmedsclone"
+                  href="https://github.com/goriens/mern-e1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -175,7 +165,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Authentication System</h2>
+              <h2>Authentication API</h2>
               <p>
                 Email and google Athentication and Authorization system with mvc
                 patthern and crud functionality using mongodb, nodejs and

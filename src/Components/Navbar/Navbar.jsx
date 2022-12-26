@@ -71,7 +71,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="https://www.canva.com/design/DAE9ICtCapY/12SdvWa2q3Ym6uCp-MvydQ/view?utm_content=DAE9ICtCapY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              href="https://drive.google.com/file/d/1grZD8C-JvBL_t5WQZqh10irVXveTjWvm/view?usp=sharing"
               onClick={toggleNavList}
               className="link link--nav"
               target="_blank"
