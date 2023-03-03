@@ -32,7 +32,39 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"2022 - Present"}
+            date={"2023 - 2027 (Expected)"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              B.S - Data Science Engineering
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Indian Institute Technology, Madras
+            </h4>
+            <p data-aos="fade-right">
+              Joined world's first 4-year Bachelor of Science (B.S) Degree in
+              Data Science and Applications.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"2022 - 2023 (Dropout)"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -65,7 +97,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Oct 2021 - Present"}
+            date={"Oct 2021 - Aug 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -95,34 +127,6 @@ export const Timeline = () => {
               Joined the Military style 12:00 hour daily Bootcamp to learn Full
               Stack Development Development and Data Structures.
             </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"May 2017 - May 2018"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Completed Higher Secondary - Science
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            ></h4>
-            <p data-aos="fade-right">V V I C Gurukul Narsan, Uttarakhand</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

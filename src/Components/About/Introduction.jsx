@@ -31,12 +31,10 @@ export const Introduction = () => {
                   Full Stack Web Development course
                 </span>{" "}
                 at Masai School. Presently I am pursuing a{" "}
-                <span className="different">
-                  Bachelor of Computer Application{" "}
-                </span>{" "}
-                in specialization{" "}
-                <span className="different"> Information Technology</span> at
-                Manipal University Jaipur.
+                <span className="different">Bachelor of Science (B.S) </span> in
+                specialization{" "}
+                <span className="different"> Data Science Engineering</span> at
+                Indian Institute Technology, Madras.
               </h4>
               <h4> My Interest In :</h4>
               <h4 className="different">
@@ -62,6 +60,12 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Coding & Programming{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Data Science{" "}
               </h4>
             </div>
           </div>
