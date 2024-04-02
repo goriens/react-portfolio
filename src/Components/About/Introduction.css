@@ -19,6 +19,7 @@
   width: 55%;
   height: 100%;
   border-radius: 50px;
+  object-fit: cover;
 }
 
 .introduction_datacontainer {

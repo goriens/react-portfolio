@@ -30,6 +30,7 @@ export const Timeline = () => {
         <h2 className="section__title" data-aos="fade-right">
           My <span className="different">Timeline 💫</span>
         </h2>
+
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"2023 - 2027 (Expected)"}

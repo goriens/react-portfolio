@@ -16,7 +16,6 @@ export const Introduction = () => {
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               <img
-                width="100%"
                 src="https://avatars.githubusercontent.com/u/76823175?v=4"
                 alt="Images"
               />
