@@ -6,16 +6,16 @@ import {
   SiHtml5,
   SiMaterialui,
   SiExpress,
-  SiRedis,
-  SiTailwindcss,
   SiNetlify,
-  SiFirebase,
   SiWordpress,
+  SiTypescript,
+  SiPython,
+  SiCplusplus,
+  SiNextdotjs,
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiCss3, DiMongodb, DiPostgresql } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
 
 export const Techstacks = () => {
   return (
@@ -24,12 +24,28 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
+            <SiTypescript />
+            <h5>Typescript</h5>
+          </div>
+          <div>
             <SiJavascript />
             <h5>Javascript</h5>
           </div>
           <div>
+            <SiPython />
+            <h5>Python</h5>
+          </div>
+          <div>
+            <SiCplusplus />
+            <h5>C++</h5>
+          </div>
+          <div>
+            <SiNextdotjs />
+            <h5>NextJS</h5>
+          </div>
+          <div>
             <FaReact />
-            <h5>React</h5>
+            <h5>ReactJS</h5>
           </div>
           <div>
             <SiRedux />
@@ -38,18 +54,6 @@ export const Techstacks = () => {
           <div>
             <FaNodeJs />
             <h5>Nodejs</h5>
-          </div>
-          <div>
-            <DiMongodb />
-            <h5>MongoDb</h5>
-          </div>
-          <div>
-            <SiHtml5 />
-            <h5>HTML</h5>
-          </div>
-          <div>
-            <DiCss3 />
-            <h5>CSS</h5>
           </div>
           <div>
             <SiExpress />
@@ -61,16 +65,12 @@ export const Techstacks = () => {
             <h5>Material Ui</h5>
           </div>
           <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
+            <DiMongodb />
+            <h5>MongoDb</h5>
           </div>
           <div>
-            <VscGithub />
-            <h5>Github</h5>
-          </div>
-          <div>
-            <SiWordpress />
-            <h5>Wordpress</h5>
+            <DiPostgresql />
+            <h5>PostgreSQL</h5>
           </div>
         </div>
       </div>

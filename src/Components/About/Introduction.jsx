@@ -24,16 +24,18 @@ export const Introduction = () => {
               <h4>
                 Hi Everyone, I am{" "}
                 <span className="different">Suhaib Gour </span> I belong to{" "}
-                <span className="different"> Roorkee, Uttarakhand</span>. I have
-                done a{" "}
+                <span className="different"> Roorkee</span>. I have completed{" "}
                 <span className="different">
-                  Full Stack Web Development course
+                  Full Stack Web Development bootcamp
                 </span>{" "}
-                at Masai School. Presently I am pursuing a{" "}
+                at Masai School. Presently, I am pursuing a{" "}
                 <span className="different">Bachelor of Science (B.S) </span> in
                 specialization{" "}
                 <span className="different"> Data Science Engineering</span> at
-                Indian Institute Technology, Madras.
+                IIT Madras. As a{" "}
+                <span className="different">Software Engineer,</span> I am
+                working on my own platform called{" "}
+                <span className="different">Gour Dev.</span>
               </h4>
               <h4> My Interest In :</h4>
               <h4 className="different">

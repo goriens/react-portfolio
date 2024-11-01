@@ -5,10 +5,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
-import StarRateIcon from "@material-ui/icons/StarRate";
 import { ThemeContext } from "../../Context/theme";
 
 export const Timeline = () => {
@@ -32,6 +30,39 @@ export const Timeline = () => {
         </h2>
 
         <VerticalTimeline lineColor={linecolor}>
+          <VerticalTimelineElement
+            date={"Apr 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Gour Dev
+            </h4>
+            <p data-aos="fade-right">
+              Building a scalable e-learning platform that offers technical
+              tutorials in an easy-to-understand language
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             date={"2023 - 2027 (Expected)"}
             contentStyle={{

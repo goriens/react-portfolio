@@ -20,10 +20,10 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          I'm a Full-stack web developer with a specialization in MERN stack.
-          Capable of writing efficient code using ReactJS, NodeJS, MongoDB and
-          HTML. Passionate about coding and looking for opportunities in
-          software development.
+          I am a Full-stack Engineer skilled in building scalable, real-time
+          applications using NodeJS, MongoDB, TypeScript, and Next.js. With
+          expertise in architecture design and frameworks like Python, and am
+          passionate about delivering high-quality software solutions.
         </p>
         <a
           target="_blank"

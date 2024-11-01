@@ -1,12 +1,19 @@
 import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
+
 import {
   SiHtml5,
   SiExpress,
   SiMongodb,
   SiNodedotjs,
   SiCss3,
+  SiSupabase,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiJavascript,
+  SiClockify,
+  SiSwagger,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -23,34 +30,38 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://user-images.githubusercontent.com/76823175/196040294-e3962100-beed-4fce-9c7e-3b7e202e2659.png"
-                  alt="Mail Chimp"
+                  src="https://github.com/user-attachments/assets/47eb5b29-3e5e-41aa-bfd0-6c532af0b436"
+                  alt="arowwai"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Gour Shop</h2>
+              <h2>Arowwai</h2>
               <p>
-                Gour Shop is an Mern stack ecommerce web application for selling
-                product online. This project was created in 1 week.
+                Engineered a real-time booking system to streamline user
+                reservations, boosting user satisfaction by enabling smoother
+                data handling
               </p>
               <div>
                 <SiHtml5 />
-                <IoLogoJavascript />
                 <SiCss3 />
-                <FaReact />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
+                <SiJavascript />
+                <SiNextdotjs />
+                <SiTailwindcss />
+                <SiSupabase />
               </div>
               <div>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://arowwai.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span type="button" className="btn btn--outline onbt">
                     View Project
                   </span>
                 </a>
                 <a
-                  href="https://github.com/goriens/mern-e1"
+                  href="https://github.com/goriens/Arowwai-cabin-booking"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -67,17 +78,17 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://miro.medium.com/max/1400/1*lNs-zyhIQXh5l2zeOXM1BQ.png"
-                  alt="Myntra"
+                  src="https://github.com/user-attachments/assets/ffbc732c-684e-4e31-994f-b472d60583b6"
+                  alt="jobster"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Pepperfry Clone</h2>
+              <h2>Jobster Platform</h2>
               <p>
-                We have prepared this blog to share our complete experience of
-                one week period in which we worked on a project assigned to us
-                by Masai School. Thanks to Masai School for this opportunity.
+                Jobster is an scalable intuitive platform designed for job
+                seekers, making it easy to find and post job opportunities for
+                professionals and freshers.
               </p>
               <div>
                 <SiHtml5 />
@@ -89,7 +100,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://pepperfry-clone.netlify.app/"
+                  href="https://udemy-7fn0.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -97,11 +108,7 @@ export const Projects = () => {
                     See Project
                   </span>
                 </a>
-                <a
-                  href="https://github.com/NishutSuman/Pepperfry_Clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="#" target="_blank" rel="noreferrer">
                   <span type="button" className="btn btn--outline">
                     View Code
                   </span>
@@ -165,34 +172,27 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Authentication API</h2>
+              <h2>B2C E-commerce API</h2>
               <p>
-                Email and google Athentication and Authorization system with mvc
-                patthern and crud functionality using mongodb, nodejs and
-                express
+                Built a public B2C e-commerce API with secure authentication,
+                authorization, and multiple user roles.
               </p>
               <div>
+                <SiJavascript />
+                <SiSwagger />
                 <SiExpress />
-                <SiMongodb />
                 <SiNodedotjs />
+                <SiMongodb />
+                <SiClockify />
               </div>
               <div>
                 <a
-                  href="https://github.com/goriens/google-auth"
+                  href="https://store-api-n0tp.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    Get API
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/goriens/google-auth"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
+                    Get API & Test API
                   </span>
                 </a>
               </div>
