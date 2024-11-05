@@ -27,7 +27,7 @@ export const About = () => {
         </p>
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1grZD8C-JvBL_t5WQZqh10irVXveTjWvm/view?usp=sharing"
+          href="https://drive.google.com/file/d/1tIzb5iHaQ9IkWpP0jwJC4yYhb-4OwdCq/view?usp=sharing"
         >
           <span type="button" className="btn btn--outline onbt resume_btn">
             Resume Download
@@ -70,15 +70,6 @@ export const About = () => {
             rel="noreferrer"
           >
             <LinkedInIcon />
-          </a>
-          <a
-            href="https://www.canva.com/design/DAE9ICtCapY/12SdvWa2q3Ym6uCp-MvydQ/view?utm_content=DAE9ICtCapY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-            aria-label="github"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <DescriptionIcon />
           </a>
           <a
             href="https://goo.gl/maps/SBRJNi9Tk7f1zJb1A"
